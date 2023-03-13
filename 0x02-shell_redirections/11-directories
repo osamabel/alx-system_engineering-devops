@@ -1,0 +1,4 @@
+#!/bin/bash
+c=$(find . -type d | wc -l)
+c=$(expr $c - 1)
+echo $c 
